@@ -110,7 +110,7 @@ class _StoryPageViewState extends State<StoryPageView> {
   void initState() {
     super.initState();
     pageController = PageController(initialPage: widget.initialPage);
-
+    print('inside story page inint is called');
     currentPageValue = widget.initialPage.toDouble();
 
     pageController!.addListener(() {
